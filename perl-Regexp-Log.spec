@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Log
+%define		pdir	Regexp
+%define		pnam	Log
 Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl):	Regexp::Log - klasa bazowa do tworzenia wyra¿eñ regularnych dla plików logów
 Name:		perl-Regexp-Log
