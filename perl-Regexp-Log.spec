@@ -10,6 +10,7 @@ Summary(pl):	Regexp::Log - klasa bazowa do tworzenia wyra¿eñ regularnych dla pli
 Name:		perl-Regexp-Log
 Version:	0.02
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
