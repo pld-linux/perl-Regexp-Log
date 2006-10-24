@@ -8,13 +8,13 @@
 Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl):	Regexp::Log - klasa bazowa do tworzenia wyra¿eñ regularnych dla plików logów
 Name:		perl-Regexp-Log
-Version:	0.02
+Version:	0.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	df9a064f3bf77360c1a9d8b179ea5cac
+# Source0-md5:	0047fed2a6b0a1182f2b7d886cfa846c
 %{?with_tests:BuildRequires:	perl-Test-Simple}
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
