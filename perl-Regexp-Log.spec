@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Log
 Summary:	Regexp::Log - base class for log files regexp builders
-Summary(pl):	Regexp::Log - klasa bazowa do tworzenia wyra¿eñ regularnych dla plików logów
+Summary(pl.UTF-8):   Regexp::Log - klasa bazowa do tworzenia wyraÅ¼eÅ„ regularnych dla plikÃ³w logÃ³w
 Name:		perl-Regexp-Log
 Version:	0.04
 Release:	1
@@ -29,13 +29,13 @@ files that cannot be simply split().
 The goal of this module family is to compute regular expressions based
 on the configuration string of the log.
 
-%description -l pl
-Regexp::Log to klasa bazowa dla ró¿nych modu³ów generuj±cych wyra¿enia
-regularne do obrabiania danych z plików logów, których nie wystarczy
-tylko potraktowaæ funkcj± split().
+%description -l pl.UTF-8
+Regexp::Log to klasa bazowa dla rÃ³Å¼nych moduÅ‚Ã³w generujÄ…cych wyraÅ¼enia
+regularne do obrabiania danych z plikÃ³w logÃ³w, ktÃ³rych nie wystarczy
+tylko potraktowaÄ‡ funkcjÄ… split().
 
-Celem rodziny modu³ów jest wyliczanie wyra¿eñ regularnych oparte na
-³añcuchu konfiguracyjnym dla loga.
+Celem rodziny moduÅ‚Ã³w jest wyliczanie wyraÅ¼eÅ„ regularnych oparte na
+Å‚aÅ„cuchu konfiguracyjnym dla loga.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
