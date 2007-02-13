@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Log
 Summary:	Regexp::Log - base class for log files regexp builders
-Summary(pl.UTF-8):   Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
+Summary(pl.UTF-8):	Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
 Name:		perl-Regexp-Log
 Version:	0.04
 Release:	1
