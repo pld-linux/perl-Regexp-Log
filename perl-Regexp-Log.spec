@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Log
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl.UTF-8):	Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
 Name:		perl-Regexp-Log
@@ -15,9 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0047fed2a6b0a1182f2b7d886cfa846c
-%{?with_tests:BuildRequires:	perl-Test-Simple}
+URL:		http://search.cpan.org/dist/Regexp-Log/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-Test-Simple
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
