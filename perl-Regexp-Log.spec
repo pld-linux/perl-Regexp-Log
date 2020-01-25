@@ -4,7 +4,6 @@
 
 %define		pdir	Regexp
 %define		pnam	Log
-%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl.UTF-8):	Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
 Name:		perl-Regexp-Log
