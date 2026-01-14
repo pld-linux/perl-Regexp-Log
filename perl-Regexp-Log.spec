@@ -8,7 +8,7 @@ Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl.UTF-8):	Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
 Name:		perl-Regexp-Log
 Version:	0.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
