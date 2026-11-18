@@ -7,13 +7,13 @@
 Summary:	Regexp::Log - base class for log files regexp builders
 Summary(pl.UTF-8):	Regexp::Log - klasa bazowa do tworzenia wyrażeń regularnych dla plików logów
 Name:		perl-Regexp-Log
-Version:	0.04
-Release:	2
+Version:	0.06
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0047fed2a6b0a1182f2b7d886cfa846c
+# Source0-md5:	2d91edac5ecbfd9c4ca7c7366f31db52
 URL:		http://search.cpan.org/dist/Regexp-Log/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -41,9 +41,6 @@ Celem rodziny modułów jest wyliczanie wyrażeń regularnych oparte na
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-
-# one test seems broken
-perl -pi -e 's/"a a /"a /' t/20debug.t
 
 %build
 %{__perl} Makefile.PL \
